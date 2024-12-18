@@ -1,3 +1,5 @@
+// lecture 6
+
 user model structure => https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
 
 node-v
@@ -69,6 +71,76 @@ PS C:\Users\91830\Desktop\backend\src>
 // install prettier  https://www.npmjs.com/package/prettier
 => npm i -D prettier
 go to prettier documentation => https://prettier.io/docs/en/install.html#npm
+
+
+
+
+
+
+
+
+
+// lecture 7
+
+
+
+// setting up mongodb
+
+ go to mongodb => https://www.mongodb.com/
+ go to atlas => https://www.mongodb.com/cloud/atlas
+
+make project->cluster->free->aws->region->mumbai->name =cluster0->create deployment
+
+->username -> password ->create database user
+
+->driver -> setup 
+
+
+// create again 
+network access -> create ip address ( allow access from anywhere ) -> save ip address
+database access -> create user -> built in role -> read and write to any database 
+
+database->cluster -> connect -> compass -> copy connection string
+
+
+
+// env
+paste the string - remove ending \
+
+
+// npm packages install
+
+-> express 
+-> mongoose
+-> dotenv 
+
+
+// database is always in another continent , connection me time lagta hai 
+try catch lagao 
+async await lagao
+
+
+
+// package.json  - for env file 
+
+"scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+
+
+
+//  documentation of cookie parser ,cors , express
+npm i express
+npm i cookie-parser 
+npm i cors
+
+
+
+// api errors
+https://nodejs.org/api/errors.html
+
+
+
 
 
 
