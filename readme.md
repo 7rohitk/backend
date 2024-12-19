@@ -139,9 +139,29 @@ npm i cors
 // api errors
 https://nodejs.org/api/errors.html
 
+// npm install mongoose-aggregate-paginate-v2
+
+// mongoose middleware
+
+// json web token - 3rd party library to send token to user => npm i jsonwebtoken
+// npm i bcrypt
 
 
+// token generator 
+=> https://it-tools.tech/token-generator
 
+// cloudinary 
+npm i cloudinary
+
+
+// multer  
+=> https://www.npmjs.com/package/multer
+=>npm i multer
+
+// express file upload  
+
+
+// node js fs 
 
 
 
