@@ -18,6 +18,17 @@ app.use(express.static("public"));
 
 app.use(cookieParser()); // send and receive cookies from user - use by only server
 
-export default app;
+
+// routes import
+import userRoutes from "./routes/user.routes.js";
+
+// routes declaration   
+app.use("/api/v1/user", userRoutes)
+// http://localhost:8000/api/v1/user/register
+
+ 
+export {app}
+
+
 
 

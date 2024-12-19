@@ -164,6 +164,10 @@ npm i cloudinary
 // node js fs 
 
 
+// download postman 
+enter url on post option 
+
+
 
 
 
